@@ -1,271 +1,315 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<html>
+
 <head>
-    <title>Hana Habib</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal website & virtual resume">
-    <meta name="author" content="Hana Habib">    
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles-2.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head> 
+    <meta charset="UTF-8">
+    <title>Privacy Notice</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <style>
+        html * {
+            font-family: 'Source Sans Pro', 'Open Sans', sans-serif !important;
+        }
+
+        .text-left {
+            text-align: left;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        #mpn-notice .question-block {
+            display: flex;
+            align-items: center;
+            padding: 0.5em 2em;
+        }
+
+        #mpn-notice .question-prompt,
+        #mpn-notice .question-answers {
+            width: 50%;
+        }
+
+        #mpn-notice .question-prompt {
+            padding-right: 3%;
+            padding-left: 12%;
+            font-weight: 300;
+            line-height: 1.5em;
+            font-size: 18px;
+        }
+
+        #mpn-notice .question-answers {
+            padding-left: 3%;
+            padding-right: 12%;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        #mpn-notice .question-answers>ul {
+            padding-left: 20px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        #mpn-notice .question-answers li {
+            padding: 0.4em 0;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        #mpn-notice .intro {
+            background-color: #0f2429;
+            padding: 3em 10em;
+        }
+
+        #mpn-notice .notice-title {
+            font-size: 2.2em;
+            color: #46cbcb;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        #mpn-notice .intro>h2 {
+            font-size: 1.5em;
+            padding: 1.5em 0em;
+            color: #FFFFFF;
+            font-weight: normal;
+        }
+
+        #mpn-notice .intro>h4 {
+            font-size: 1em;
+            color: #FFFFFF;
+            font-weight: lighter;
+        }
+
+        #mpn-notice section>h1 {
+            background-color: #99dccf;
+            color: #FFF;
+            padding: 1.5em 10em;
+            margin: 0;
+            text-transform: uppercase;
+            font-weight: normal;
+            font-size: 1.5em;
+        }
+
+        #mpn-notice .footer {
+            background-color: #0f2429;
+            padding: 2em;
+        }
+
+        #mpn-notice .footer h1 {
+            text-transform: uppercase;
+            color: #FFF;
+            font-weight: 300;
+            margin: 1em 0;
+            font-size: 1.5em;
+        }
+
+        #mpn-notice .footer h3 {
+            color: #FFF;
+            font-weight: 300;
+            margin: 0.5em 0;
+            font-size: 1em;
+        }
+
+        #mpn-notice .footer>div {
+            width: 30%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
 
 <body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile" src="assets/images/profile.png" alt="" width="200px" />
-                <h1 class="name">Hana Habib</h1>
-                <h3 class="tagline"> [ha-na ha-beeb]</h3>
-                <br>
-                <h3 class="tagline">PhD student with a research focus in privacy & security.</h3>
-            </div><!--//profile-container-->
-            
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i>htq@cs.cmu.edu</li>
-                    <!-- <li class="phone"><i class="fa fa-phone"></i><a href="tel:0123 456 789">0123 456 789</a></li> -->
-                    <!-- <li class="website"><i class="fa fa-globe"></i><a href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank">portfoliosite.com</a></li> -->
-                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/hana-habib" target="_blank">linkedin.com/in/hthabib</a></li>
-                    <li><i class="fa fa-file-pdf-o"></i><a href="assets/images/Hana_Habib_CV.pdf" target="_blank">Curriculum Vitae (CV)</a></li>
-                    <!-- <li class="github"><i class="fa fa-github"></i><a href="#" target="_blank">github.com/username</a></li> -->
-                    <!-- <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/3rdwave_themes" target="_blank">@twittername</a></li> -->
-                </ul>
-            </div><!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">PhD in Societal Computing</h4>
-                    <h5 class="meta">Carnegie Mellon University</h5>
-                    <div class="time">2016 - Present</div>
-                </div><!--//item-->
-                <div class="item">
-                    <h4 class="degree">MSIT in Info Security</h4>
-                    <h5 class="meta">Carnegie Mellon University</h5>
-                    <div class="time">2014 - 2015</div>
-                </div><!--//item-->
-                <div class="item">
-                    <h4 class="degree">BS in CS/ECE</h4>
-                    <h5 class="meta">Cornell University</h5>
-                    <div class="time">2009 - 2013</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
-            
-       <!--      <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Native)</span></li>
-                    <li>French <span class="lang-desc">(Professional)</span></li>
-                    <li>Spanish <span class="lang-desc">(Professional)</span></li>
-                </ul>
-            </div><!--//interests--> 
-            
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Research Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Privacy</li>
-                    <li>Security</li>
-                    <li>Human-Computer Interaction</li>
-                </ul>
-            </div><!--//interests-->
-            
-        </div><!--//sidebar-wrapper-->
-        
-        <div class="main-wrapper">
-            
-            <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
-                <div class="summary">
-                    <p>I am currently a PhD student in the Societal Computing program at Carnegie Mellon University, advised by <a href="http://lorrie.cranor.org/" target="_blank">Lorrie Faith Cranor</a>. My research interests span many areas
-					of security and privacy, and include understanding user behavior and preferences in relation to privacy and security and developing effective notification methods for communicating privacy and security information in the Internet of Things (IoT). </p>
-                    <p>Prior to starting my PhD, I completed a Bachelors in Computer Science and Electrical & Computer Engineering from Cornell University and a Masters in Information Technology - Information Security from Carnegie Mellon University. I also worked as a software engineer for the U.S. Department of Defense.</p>
-                </div><!--//summary-->
-            </section><!--//section-->
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Intern, Privacy Engineering</h3>
-                            <div class="time">May 2015 - Aug 2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Apple Inc, Cupertino</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p> At Apple, I collaborated with teams cross-functionally to ensure that feature designs for new and existing Apple products were privacy-protective for customers. I also developed tools to automate recurring Privacy Engineering tasks and analyzed reported data to better understand customer privacy needs. </p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Graduate Research Assistant</h3>
-                            <div class="time">Jan 2015 - Dec 2015</div>
-                        </div><!--//upper-row-->
-                        <div class="company">CMU CyLab Usable Privacy & Security Lab, Pittsburgh</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>As a research assistant, I facilitated a diary and interview study of online data sharing practices in order to better understand user requirements for applications and services. My contributions included coordinating and conducting participant interviews, and analyzing survey data through interview coding.</p>
-                        <p> I also helped design a user study protocol to investigate effective notification mediums for Internet of Things devices. As part of this study, I modified a PhoneGap Android application to send push notifications containing variations of a privacy notice for a Fitbit device.</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Product Owner/Software Engineer</h3>
-                            <div class="time">June 2013 - July 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Department of Defense, Maryland</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>While at the DoD, I led efforts to implement capabilities to generate different cryptographic products by a Key Management Infrastructure (KMI). I also updated system components to integrate new KMI capabilities and virtualized them for use in the development environment.</p>  
-                        
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Undergraduate Research Assistant</h3>
-                            <div class="time">Jan 2010 - May 2012</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Cornell Creative Machines Lab, Ithaca</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>As part of the Fab@Home3D Printer project team, I redesigned the printer’s software to improve efficiency and printer control and programmed a command line interface for testing. I also designed and built a safety enclosure for the printer and developed a printed circuit board to integrate the printer’s milling tool with the main controller board.</p>  
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-            </section><!--//section-->
-            
-            <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-archive"></i>Publications</h2>
-                <div class="item">
-                    <span class="project-tagline">Blase Ur, Felicia Alfieri, Maung Aung, Lujo Bauer, Nicolas Christin, Jessica Colnago, Lorrie Faith Cranor, Henry Dixon, Pardis Emami Naeini, <b>Hana Habib</b>, Noah Johnson, and William Melicher. "Design and Evaluation of a Data-Driven Password Meter." <i>In Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI ’17).</i> 2017. <b>[Best Paper award]</b></span>
-                </div><!--//item-->    
-                <div class="item">
-                    <span class="project-tagline"><b>Hana Habib</b>, Jessica Colnago, William Melicher, Blase Ur, Sean Segreti, Lujo Bauer, Nicolas Christin, and Lorrie Faith Cranor. <a href="https://www.internetsociety.org/sites/default/files/usec2017_01_3_Habib_paper.pdf" target="_blank">"Password Creation in the Presence of Blacklists."</a> <i>In Proceedings of the Workshop on Usable Security (USEC '17).</i> 2017. </span>
-                </div><!--//item-->    
-                <div class="item">
-                    <span class="project-tagline">Joshua Gluck, Florian Schaub, Amy Friedman, <b>Hana Habib</b>, Norman Sadeh, Lorrie Faith Cranor, and Yuvraj Agarwal. <a href="https://www.usenix.org/system/files/conference/soups2016/soups2016-paper-gluck.pdf" target="_blank">"How Short Is Too Short? Implications of Length and Framing on the Effectiveness of Privacy Notices."</a> <i>In Proceedings of the Twelfth Symposium on Usable Privacy and Security (SOUPS ‘16).</i> 2016. </span>
-                </div><!--//item-->
-                <div class="item">
-                  <span class="project-tagline">Manya Sleeper, William Melicher, <b>Hana Habib</b>, Lujo Bauer, Lorrie Faith Cranor, and Michelle L. Mazurek. <a href="https://pdfs.semanticscholar.org/f32f/8d21840e0c86e2fc2152ca1f3b6324c8215c.pdf" target="_blank">"Sharing personal content online: Exploring channel choice and multi-channel behaviors."</a><i> In Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI ’16).</i> 2016.</span>
-                </div><!--//item-->
-                <div class="item">
-                 <span class="project-tagline"><b>Hana Qudsi</b> and Maneesh Gupta. <a href="http://ieeexplore.ieee.org/document/6525657/" target="_blank">"Low-Cost, Thermistor Based Respiration Monitor."</a> <i>In Proceedings of the 29th Southern Biomedical Engineering Conference (SBEC ‘13)</i>, pp. 23-24. IEEE, 2013. </span>
-                 [<a href="https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2012/htq2_mg573/htq2_mg573/index.htm" target="_blank">documentation</a>][<a href="https://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2012/htq2_mg573/breath_monitor.MP4" target="_blank">demo</a>]
-                </div><!--//item-->
-            </section><!--//section-->
-            
-            <section class="section scholarship-section">
-            	<h2 class="section-title"><i class="fa fa-graduation-cap"></i>Scholarships</h2>
-            	<div class ="item">
-            	<span class="project-title">Executive Women's Forum Fellowship</span> - <span class="project-tagline">A full-tuition scholarship awarded to an incoming female student studying information security at the Information Networking Institute at Carnegie Mellon University.</span>
-            	</div>
-            	<br>
-            	<div class ="item">
-            	<span class="project-title">Stokes Educational Scholarship Program</span> - <span class="project-tagline">A DoD sponsored scholarship awarded to high-school seniors who plan to study computer science or computer/electrical engineering.</span>
-            	</div>
-            </section>
-
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Certifications</h2>
-                <div class="skillset">  
-                	<table>
-                	<col width="450">
-                	<col width="450">
-                	<tr>
-                	<td>
-                	<div class="item">
-                		<b>IAPP CIPP/CIPT</b>                            
-                    </div><!--//item--> 
-                    </td>
-                    <td>     
-                    <div class="item">
-                    	<b>Java</b>
-<!--                    <h3 class="level-title">Java</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="98%">
-                            </div>                                      
-                        </div><!--//level-bar   -->                             
-                    </div><!--//item-->   
-                    </td>
-                    </tr>
-                    <tr>
-                    <td>
-                    <div class="item">
-                    	<b>Python</b>                        
-                    </div><!--//item-->
-                    </td>
-                    <td>
-                    <div class="item">
-                    	<b>JavaScript &amp; PHP </b>
-                    </div><!--//item-->
-                    </td>
-                    </tr>
-                    <tr>
-                    <td>
-                    <div class="item">
-                    	<b>HTML5 &amp; CSS</b>                     
-                    </div><!--//item-->
-                    </td>
-                    <td>
-                    <div class="item">
-                    	<b>Perl</b>              
-                    </div><!--//item-->
-                    </td>
-                    </tr>
-                    <tr>
-                    <td>
-                    <div class="item">
-                    	<b>C</b>                            
-                    </div><!--//item-->
-                    </td>
-                    <td>
-                    <div class="item">
-                    	<b>C++</b>                        
-                    </div><!--//item-->
-                    </td>
-                    </tr>
-                    </table>
-                </div>  
-            </section><!--//skills-section-->
-            
-        </div><!--//main-body-->
+    <div id="mpn-notice">
+        <div class="intro">
+            <h1 class="notice-title text-center">Learn About Our Privacy Policy</h1>
+            <h2 class="text-center">We want you to know our privacy and security policies to encourage transparency and help you make informed choices when using our products. Learn everything you need to know in one quick summary.</h2>
+            <h4 class="text-center">If you want more information, you can peruse our full privacy policy. And, if you have any questions, comments or concerns, email us at privacy@fitbit.com.</h4>
+        </div>
+        <section>
+            <h1 class="text-center">HIPAA Covered Entity</h1>
+            <div class="question-block">
+                <h3 class="question-prompt">If the company is a covered entity, select one of the following statements to be inserted into the privacy notice:</h3>
+                <div class="question-answers">Some of the health data we collect as part of Fitbit fitness trackers also are protected by HIPAA. <a href="https://hipaapolicy.com">Read our HIPAA Notice of Privacy Practices for more information.</a></div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">What is the name of the technology or product this notice is for?</h3>
+                <div class="question-answers">Fitbit fitness trackers</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">(optional) If some of the health data collected is protected by HIPAA, what is the link to the company's HIPAA Notice of Privacy Practices?</h3>
+                <div class="question-answers">https://hipaapolicy.com</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Use: How data is used internally</h1>
+            <div class="question-block">
+                <h3 class="question-prompt"><abbr title="Identifiable data means: data, such as your name, phone number, email, address, health services, information on your physical or mental health conditions, or your social security number, that can be used on its own or with other information to identify you.">We collect and use your identifiable data:</abbr></h3>
+                <div class="question-answers">
+                    <ul>
+                        <li>To provide the primary service of the app or technology</li>
+                        <li>To develop marketing materials for our products</li>
+                        <li>To conduct scientific research</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Share: How data is shared externally with other companies or entities</h1>
+            <div class="question-block">
+                <h3 class="question-prompt"><abbr title="Identifiable data means: data, such as your name, phone number, email, address, health services, information on your physical or mental health conditions, or your social security number, that can be used on its own or with other information to identify you.">We share your identifiable data:</abbr></h3>
+                <div class="question-answers">
+                    <ul>
+                        <li>For company operations (e.g., quality control or fraud detection)</li>
+                        <li>To comply with a law</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">We share your data AFTER removing identifiers (note that remaining data may not be anonymous):</h3>
+                <div class="question-answers">
+                    <ul>
+                        <li>To provide the primary service of the app or technology</li>
+                        <li>To conduct scientific research</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Sell: How data is sold</h1>
+            <div class="question-block">
+                <h3 class="question-prompt"><abbr title="Identifiable data means: data, such as your name, phone number, email, address, health services, information on your physical or mental health conditions, or your social security number, that can be used on its own or with other information to identify you.">We sell your identifiable data to data brokers, marketing, advertising networks, or analytics firms.</abbr></h3>
+                <div class="question-answers">No</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt"><abbr title="Data broker means: companies that collect personal information about consumers from a variety of public and non-public sources and resell the information to other companies.">We sell your data AFTER removing identifiers (note that remaining data may not be anonymous) to data brokers, marketing, advertising networks, or analytics firms.</abbr></h3>
+                <div class="question-answers">Yes</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Store: How data is stored</h1>
+            <div class="question-block">
+                <h3 class="question-prompt">Is your data stored on the device?</h3>
+                <div class="question-answers">Yes</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">Is your data stored outside the device at our company or through a third party? </h3>
+                <div class="question-answers">Yes</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Encryption: How data is encrypted</h1>
+            <div class="question-block">
+                <h3 class="question-prompt"><abbr title="Encryption means: a method of converting an original message of regular text into encoded text in such a way that only authorized parties can read it. Alternatively, a more consumer friendly definition may be substituted as a result of the Challenge, including based on consumer testing feedback">Does the app or technology encrypt your data in the device or app?</abbr></h3>
+                <div class="question-answers">Yes, by default</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt"><abbr title=" Cloud computing means: a kind of Internet-based computing that provides shared processing resources and data to computers and other devices on demand">Does the app or technology encrypt your data when stored on our company servers or with an outside cloud computing services provider? </abbr></h3>
+                <div class="question-answers">Yes, by default</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">Does the app or technology encrypt your data while it is transmitted?</h3>
+                <div class="question-answers">Yes, by default</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Privacy: How this technology accesses other data </h1>
+            <div class="question-block">
+                <h3 class="question-prompt">Will this technology or app request access to other device data or applications, such as your phone’s camera, photos, or contacts? </h3>
+                <div class="question-answers">Yes, only with permission</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">It connects to...</h3>
+                <div class="question-answers">
+                    <ul>
+                        <li>Photos</li>
+                        <li>Location services</li>
+                        <li>bluetooth sharing, media library, notifications</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">You can check your settings, including permissions set as a default by: </h3>
+                <div class="question-answers">Settings &gt; Fitbit</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">Does this technology or app allow you to share the collected data with your social media accounts, like Facebook? </h3>
+                <div class="question-answers">Yes; only with permission</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">You can check your social media sharing settings by: </h3>
+                <div class="question-answers">Settings &gt; Sharing</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">User Options: What a user can do with the data that is collected</h1>
+            <div class="question-block">
+                <h3 class="question-prompt">Can you access, edit, share, or delete the data we have about you?</h3>
+                <div class="question-answers">Yes</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">You can...</h3>
+                <div class="question-answers">
+                    <ul>
+                        <li>Access data</li>
+                        <li>Edit data</li>
+                        <li>Share data</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">Here's how:</h3>
+                <div class="question-answers">modified from your dashboard or Fitbit account preferences</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Deactivation: What happens to data when an account is deactivated</h1>
+            <div class="question-block">
+                <h3 class="question-prompt"><abbr title="Deactivation means: an individual takes action or a company ceases operation or deactivates an individual’s account due to inactivity.">When your account is deactivated/terminated by you or the company, your data is…</abbr></h3>
+                <div class="question-answers">Permanently retained and used</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Policy Changes: How the company will notify users if the privacy policy changes</h1>
+            <div class="question-block">
+                <h3 class="question-prompt">Fitbit, Inc will notify consumers of privacy policy changes by...</h3>
+                <div class="question-answers">Policy change notification text</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">Section of privacy policy:</h3>
+                <div class="question-answers">www.fitbit.com/privacy</div>
+            </div>
+        </section>
+        <section>
+            <h1 class="text-center">Breach: How the company will notify users and protect data in case of an improper disclosure</h1>
+            <div class="question-block">
+                <h3 class="question-prompt">Fitbit, Inc complies with all applicable laws regarding breaches. In case of a breach...</h3>
+                <div class="question-answers">Breach notification text</div>
+            </div>
+            <div class="question-block">
+                <h3 class="question-prompt">Section of privacy policy:</h3>
+                <div class="question-answers">www.fitbit.com/privacy</div>
+            </div>
+        </section>
+        <div class="footer">
+            <h1 class="text-center">Contact Us</h1>
+            <div>
+                <h3>Fitbit, Inc</h3>
+                <h3>https://www.fitbit.com/legal/privacy-policy</h3>
+                <h3>https://community.fitbit.com</h3>
+                <h3>privacy@fitbit.com</h3>
+                <h3>(877) 623-4997</h3>
+                <h3>405 Howard Street, San Francisco, CA 94105</h3>
+            </div>
+        </div>
     </div>
- 
-    <footer class="footer">
-        <div class="text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
 </body>
-</html> 
 
+</html>
